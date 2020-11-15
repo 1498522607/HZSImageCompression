@@ -1,0 +1,6 @@
+framework module HZSImageCompression {
+  umbrella header "HZSImageCompression-umbrella.h"
+
+  export *
+  module * { export * }
+}
