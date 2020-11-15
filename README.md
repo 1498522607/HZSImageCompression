@@ -31,7 +31,7 @@ pod 'HZSImageCompression'
 
 ## Author
 
-黄祖树, 1498522607@qq.com
+古德猫宁, 1498522607@qq.com
 
 ## License
 

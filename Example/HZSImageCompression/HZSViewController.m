@@ -9,6 +9,7 @@
 #import "HZSViewController.h"
 #import "UIImage+HZSCompress.h"
 
+
 @interface HZSViewController ()
 
 @end
@@ -18,10 +19,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+//	// Do any additional setup after loading the view, typically from a nib.
     UIImage * image = [UIImage imageNamed:@"sun"];
     NSLog(@"压缩后 = %ld", [image dataWithCompressMaxLength:0.5 * Megabytes].length);
+    
 }
+
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
